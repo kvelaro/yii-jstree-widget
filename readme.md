@@ -1,10 +1,10 @@
 #Yii jstree widget
 
-1. Install jstree library.
-2. Include library. 
-3. Install downloaded folder in widgets/extensions directory.
-4. Add "import" statement into your config file in "import" sectoin if not added previously.
-5 In your view, add following code
+1. Install and include jstree library.
+2. Install downloaded folder in widgets/extensions directory.
+3. Add "import" statement into your config file in "import" section, if not added previously.
+4. In your view, add following code.
+
 ```
 <?php $jstreeId = 'tree1';?>
 <?php $checkedProducts = [3, 5];?>
